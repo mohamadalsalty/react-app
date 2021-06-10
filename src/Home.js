@@ -19,6 +19,9 @@ function Home() {
           <Main /> 
         </Route>
 
+        <Route exact path="/react-app">
+          <Main /> 
+        </Route>
         <Route exact path="/react-app/home">
           <Main />
         </Route>
