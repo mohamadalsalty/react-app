@@ -25,10 +25,10 @@ function Slidebar() {
             </div>
 
             <div className="modal-body">
-              <div><Link to="/home"><i className="item_slidebar fas fa-home"></i></Link></div><br></br>
-              <div><Link to="/add"><i className="item_slidebar fas fa-plus"></i></Link></div><br></br>
-              <div><Link to="/signup"><i className="item_slidebar fas fa-user-plus"></i></Link></div><br></br>
-              <div><Link to="/login"><i className="item_slidebar fas fa-sign-in-alt"></i></Link></div><br></br>
+              <div><Link to="/react-app/home"><i className="item_slidebar fas fa-home"></i></Link></div><br></br>
+              <div><Link to="/react-app/add"><i className="item_slidebar fas fa-plus"></i></Link></div><br></br>
+              <div><Link to="/react-app/signup"><i className="item_slidebar fas fa-user-plus"></i></Link></div><br></br>
+              <div><Link to="/react-app/login"><i className="item_slidebar fas fa-sign-in-alt"></i></Link></div><br></br>
               
             </div>
 
