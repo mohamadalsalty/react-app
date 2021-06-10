@@ -4,7 +4,7 @@
 
 function Main() {
     return(
-        <div className="main container">
+        <div className="container">
             Main
         </div>
     );
