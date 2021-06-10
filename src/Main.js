@@ -1,4 +1,4 @@
-
+import {Link, link} from 'react-router-dom'
 
 
 
@@ -8,16 +8,13 @@ function Main() {
             <div className="container justify-content-center dashboard-items">
                 <div className="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
                     <div className="col justify-content-center">
-                        <i className="fas fa-plus"></i>
+                        <Link to="/add"><i className="fas fa-plus"></i></Link>
                     </div>
                     <div className="col justify-content-center">
-                        <i className="fas fa-home"></i>
+                        <Link to="/signup"><i className="fas fa-user-plus"></i></Link>
                     </div>
                     <div className="col justify-content-center">
-                        <i className="fas fa-user-plus"></i>
-                    </div>
-                    <div className="col justify-content-center">
-                        <i className="fas fa-sign-in-alt"></i>
+                        <Link to="/login"><i className="fas fa-sign-in-alt"></i></Link>
                     </div>
 
 
