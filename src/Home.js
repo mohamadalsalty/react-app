@@ -4,15 +4,6 @@ function Home() {
   return (
     <div>
 
-      {/* <div className="flex flex-col w-64">
-        <div className="firstItem">
-          MOHAMAD
-        </div>
-        <a href="#">Home</a>
-        <a href="#">Users</a>
-      </div> */}
-
-
       <nav className="navbar navbar-light bg-light shadow">
         <div className="container-fluid">
           <button className="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
