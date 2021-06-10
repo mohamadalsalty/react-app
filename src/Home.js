@@ -19,20 +19,20 @@ function Home() {
           <Main /> 
         </Route>
 
-        <Route exact path="/home">
+        <Route exact path="/react-app/home">
           <Main />
         </Route>
 
-        <Route exact path="/add">
+        <Route exact path="/react-app/add">
           <Add /> 
         </Route>
 
 
-        <Route exact path="/signup">
+        <Route exact path="/react-app/signup">
           <Signup /> 
         </Route>
 
-        <Route exact path="/login">
+        <Route exact path="/react-app/login">
           <Login /> 
         </Route>
       </Switch>
