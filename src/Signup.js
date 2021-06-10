@@ -1,9 +1,15 @@
 
 function Signup() {
     return (
-      <div>Signup page</div>
+    <div className="container justify-content-center add-section">
+      <center>
+        <h3>Signup now</h3>
+        <input placeholder="please enter the email" className="form-control"></input><br></br>
+        <input placeholder="please enter the password" className="form-control"></input><br></br>
+        <button className="btn btn-success form-control">Signup</button>
+      </center>
+    </div>
     );
   }
   
   export default Signup;
-  

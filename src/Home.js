@@ -4,7 +4,11 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Add from './Add'
 import Signup from './Signup'
 import Login from './Login'
+
+
+
 function Home() {
+  
   return (
     <div>
 
@@ -16,7 +20,7 @@ function Home() {
         </Route>
 
         <Route exact path="/home">
-          <Main /> 
+          <Main />
         </Route>
 
         <Route exact path="/add">
