@@ -3,7 +3,9 @@ import users from './backend/users'
 
 function Users() {
     return (
-        <div className="container">
+
+        <div className="container justify-content-center add-section">
+            <Link to="/"><i class="fas fa-arrow-left"></i></Link>
                 {users.map(user => {
                     return(
                         <div className="text-center">
