@@ -9,17 +9,17 @@ function Main() {
             <div className="container justify-content-center dashboard-items">
                 <div className="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
                     <div className="col justify-content-center">
-                        <Link to="add"><i className="fas fa-plus"></i></Link>
+                        <Link to="/react-app/add"><i className="fas fa-plus"></i></Link>
                     </div>
                     <div className="col justify-content-center">
-                        <Link to="signup"><i className="fas fa-user-plus"></i></Link>
+                        <Link to="/react-app/signup"><i className="fas fa-user-plus"></i></Link>
                     </div>
                     <div className="col justify-content-center">
-                        <Link to="login"><i className="fas fa-sign-in-alt"></i></Link>
+                        <Link to="/react-app/login"><i className="fas fa-sign-in-alt"></i></Link>
                     </div>
 
                     <div className="col justify-content-center">
-                        <Link to="users"><i className="fas fa-users"></i></Link>
+                        <Link to="/react-app/users"><i className="fas fa-users"></i></Link>
                     </div>
                 </div>
             </div>
