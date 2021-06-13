@@ -5,7 +5,6 @@ import Add from './Add'
 import Signup from './Signup'
 import Login from './Login'
 import Users from './Users'
-import { HashRouter } from 'react-router-dom'
 
 
 
@@ -16,7 +15,7 @@ function Home() {
 
     <Router>
       <Slidebar />
-      <HashRouter >
+      <Switch>
         <Route exact path="/">
           <Main /> 
         </Route>
@@ -46,7 +45,7 @@ function Home() {
         </Route>
 
 
-      </HashRouter >
+      </Switch>
            
     </Router>
 
