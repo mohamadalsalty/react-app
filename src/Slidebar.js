@@ -29,7 +29,8 @@ function Slidebar() {
               <div><Link to="/react-app/add"><i className="item_slidebar fas fa-plus"></i></Link></div><br></br>
               <div><Link to="/react-app/signup"><i className="item_slidebar fas fa-user-plus"></i></Link></div><br></br>
               <div><Link to="/react-app/login"><i className="item_slidebar fas fa-sign-in-alt"></i></Link></div><br></br>
-              
+              <div><Link to="/react-app/users"><i className="item_slidebar fas fa-users"></i></Link></div><br></br>
+
             </div>
 
             

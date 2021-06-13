@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Add from './Add'
 import Signup from './Signup'
 import Login from './Login'
+import Users from './Users'
 
 
 
@@ -38,6 +39,12 @@ function Home() {
         <Route exact path="/react-app/login">
           <Login /> 
         </Route>
+
+        <Route exact path="/react-app/users">
+          <Users /> 
+        </Route>
+
+
       </Switch>
            
     </Router>
